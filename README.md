@@ -32,6 +32,16 @@ SHA-256: `4a12b005f9aee981592076f1f151b883da9379895fe97658afabf1a8df58aed3`
 
 The portable Windows build does not require a Python installation. The binary is currently unsigned, so Windows may show a reputation warning.
 
+## Support SpoolFinish
+
+SpoolFinish is free and open source.
+
+If it saves you some filament or time and you'd like to support development:
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W6B32843F4)
+
+No payment is required to download or use SpoolFinish.
+
 ## Privacy
 
 SpoolFinish works locally on your computer. The application does not use telemetry, analytics, cloud upload, accounts, or network communication. It reads the selected G-code file and writes any patched output as a separate file.
