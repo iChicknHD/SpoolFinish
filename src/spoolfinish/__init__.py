@@ -1,0 +1,1 @@
+"""SpoolFinish bounded core proof."""

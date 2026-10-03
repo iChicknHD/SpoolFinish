@@ -1,0 +1,72 @@
+{
+  "slicer": "OrcaSlicer",
+  "slicer_version": "2.4.2",
+  "release": "official Windows x64 portable v2.4.2",
+  "profile": "Prusa MK3S 0.4 nozzle; 0.20mm Standard @MK3S; Prusa Generic PLA",
+  "model": "local closed 20 mm cube",
+  "output_gcode": "plate_1.gcode",
+  "input_gcode_sha256": "26e7bdba38ab12544e1ba3752854a793814e6f9ae0d703d06cfc5dc36c47d862",
+  "source_hash_before_patch": "26e7bdba38ab12544e1ba3752854a793814e6f9ae0d703d06cfc5dc36c47d862",
+  "extrusion_modes": [
+    "M83"
+  ],
+  "layer_marker": ";LAYER_CHANGE",
+  "layers": 100,
+  "z_motion_moves": 260,
+  "startup_filament_mm": 21.5,
+  "total_filament_mm": 1197.6367699999919,
+  "density_g_cm3": 1.24,
+  "oracle": {
+    "source": "cube_sliced.3mf:Metadata/slice_info.config",
+    "used_m": 1.2,
+    "used_g": 3.57,
+    "spoolfinish_mm": 1197.6367699999919,
+    "absolute_mm_difference": 2.363230000008116,
+    "relative_percent_difference": 0.19693583333400966,
+    "length_tolerance_mm": 5.01,
+    "spoolfinish_g": 3.5720109800869957,
+    "absolute_g_difference": 0.0020109800869958505,
+    "mass_tolerance_g": 0.0051
+  },
+  "safe_change": {
+    "remaining_g": 2.5218071370565474,
+    "reserve_g": 0.2,
+    "usable_g": 2.321807137056547,
+    "last_completed_layer": 67,
+    "change_before_layer": 68,
+    "change_z_mm": 13.8,
+    "consumed_before_change_g": 2.3088254396280483,
+    "expected_remainder_g": 0.012981697428498862,
+    "next_layer_cumulative_g": 2.341624059552062
+  },
+  "edge_simulations": {
+    "exact_boundary_layer": 50,
+    "inside_next_layer_boundary": 50,
+    "reserve_greater_than_remaining": "ERROR",
+    "complete_print_fits": "NO_CHANGE",
+    "very_small_spool_before_layer": 0,
+    "custom_pla_density_g_cm3": 1.3,
+    "custom_density_cli": "PASS",
+    "m82_present": false,
+    "m83_present": true
+  },
+  "patches": {
+    "marlin": {
+      "command": "M600",
+      "count": 1,
+      "only_injected_block_diff": true,
+      "reparse": "PASS",
+      "output": "plate_1_marlin.gcode"
+    },
+    "klipper": {
+      "command": "PAUSE",
+      "count": 1,
+      "only_injected_block_diff": true,
+      "reparse": "PASS",
+      "output": "plate_1_klipper.gcode"
+    }
+  },
+  "source_hash_after_patch": "26e7bdba38ab12544e1ba3752854a793814e6f9ae0d703d06cfc5dc36c47d862",
+  "original_unchanged": true,
+  "firmware_runtime_proven": false
+}

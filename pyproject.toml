@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spoolfinish"
+version = "0.1.0"
+description = "Deterministic single-spool G-code core proof"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+spoolfinish = "spoolfinish.cli:main"
+spoolfinish-gui = "spoolfinish.gui:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

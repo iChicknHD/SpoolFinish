@@ -1,0 +1,15 @@
+{
+  "slicer": "OrcaSlicer",
+  "version": "2.4.2",
+  "release_url": "https://github.com/OrcaSlicer/OrcaSlicer/releases/tag/v2.4.2",
+  "portable_asset": "OrcaSlicer_Windows_V2.4.2_x64_portable.zip",
+  "portable_sha256": "feba3009dfb9d268779cca5758a1a5bc3b7d0722bf8fa48d5c57340de975d6be",
+  "profile": "Prusa MK3S 0.4 nozzle; 0.20mm Standard @MK3S; Prusa Generic PLA",
+  "model": "locally generated 20 mm cube",
+  "profile_adjustments": [
+    "removed M221 flow scaling from machine start code",
+    "replaced end code so it adds no E moves",
+    "disabled prime tower for single filament validation",
+    "set machine z_hop to 0.2 mm to validate Z-hop does not alter explicit layer count"
+  ]
+}
